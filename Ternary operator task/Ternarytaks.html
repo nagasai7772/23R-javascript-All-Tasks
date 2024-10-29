@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body{
+        background-color: black;
+    }
+    .Questions
+    {
+        color:green;
+    }
+    .Ans
+    {
+        color:yellow;
+    }
+  </style>
+  <body>
+    <pre>
+       <pre class="Questions"> Given a variable 'score', use a ternary operator to determine the performance level:
+"""Excellent" if 'score' is 90 or above,
+- \"Good"` if 'score' is between 60 and 89,
+- "Needs Improvement" if 'score is below 60.
+</pre>
+<pre class="Ans">
+var score = 90;
+score >= 90
+  ? console.log("Excellent")
+  : score <= 89 && score >= 60
+  ? console.log("good")
+  : console.log("Need improvement");
+</pre>
+  <pre class="Questions">
+  ---
+  Problem 2
+  Given a variable `day', use a ternary operator to check if it's a weekend:
+  . '"Weekend" if day' is "Saturday" or "Sunday",
+  ' "Weekday" for any other day.
+</pre>
+<pre class="Ans">
+  var Day="saturday";
+
+(Day=="saturday"||Day=="sunday")?console.log("Weekend"):console.log("Weekday");
+</pre>
+<pre class="Questions">
+### Problem 3
+Given a string inputString', use the ternary operator to check if it is a palindrome. A string is
+considered a palindrome if it reads the same forwards and backwards.
+- ** Output :** ' "Palindrome"' if the string is a palindrome,
+- '"Not a Palindrome" otherwise.
+</pre>
+<pre class="Ans">
+var str = "world";
+var str1 = "";
+for (i = str.length - 1; i >= 0; i--) {
+  str1 += str[i];
+}
+console.log(str1);
+if (str == str1) {
+  console.log("It's a palindrome");
+} else {
+  console.log("it's not a palindrome");
+}
+</pre>
+<pre class="Questions">
+### Problem 4
+Input: HELLO
+Output:
+H
+HE
+HEL
+HELL
+HELLO
+</pre>
+<pre class="Ans">var str2 = "HELLO";
+var str3 = "";
+for (i = 0; i < str2.length; i++) {
+  str3 += str2[i];
+  console.log(str3);
+}
+</pre>
+
+    </pre>
+  </body>
+</html>
