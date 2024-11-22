@@ -1,0 +1,331 @@
+body {
+  background-color: black;
+}
+
+.row1 {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+#caldesgin {
+  background-color: black;
+  height: 30rem;
+  width: 21rem;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 2px solid rebeccapurple;
+  box-shadow: -4px -2px 20px 0px rgb(195, 18, 230);
+  margin: 10px;
+}
+
+#Digital {
+  height: 3rem;
+  width: 20rem;
+  border-radius: 10px;
+  background-color: black;
+  border: 1px solid aqua;
+  box-shadow: -4px -2px 20px 0px rgb(7, 244, 228);
+}
+#AC {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  background-color: black;
+  color: rgb(11, 227, 20);
+  box-shadow: -4px -2px 10px 0px rgb(112, 112, 112);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+#AC:active {
+  box-shadow: -4px -2px 20px 0px rgb(11, 227, 7);
+}
+#DEL {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  background-color: black;
+  color: rgb(11, 227, 20);
+  box-shadow: -4px -2px 10px 0px rgb(112, 112, 112);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+#DEL:active {
+  box-shadow: -4px -2px 20px 0px rgb(220, 55, 34);
+}
+
+#mod {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  background-color: black;
+  color: rgb(11, 227, 20);
+  box-shadow: -4px -2px 20px 0px rgb(112, 112, 112);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+#mod:active {
+  box-shadow: -4px -2px 20px 0px rgb(69, 205, 233);
+}
+
+#div {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  background-color: black;
+  color: green;
+  box-shadow: -4px -2px 20px 0px rgb(112, 112, 112);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+#div:active {
+  box-shadow: -4px -2px 20px 0px rgb(67, 59, 219);
+}
+
+#one {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+  box-shadow: -4px -2px 20px 0px rgb(112, 112, 112);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+#one:active {
+    box-shadow: -4px -2px 20px 0px rgb(219, 69, 179);
+  }
+  
+
+#two {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+  box-shadow: -4px -2px 20px 0px rgb(112, 112, 112);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+#two:active {
+    box-shadow: -4px -2px 20px 0px rgb(42, 22, 225);
+  }
+  
+#three {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+  box-shadow: -4px -2px 20px 0px rgb(112, 112, 112);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+#three:active {
+    box-shadow: -4px -2px 20px 0px rgb(28, 218, 72);
+  }
+  
+#four {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+  box-shadow: -4px -2px 20px 0px rgb(112, 112, 112);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+#four:active {
+    box-shadow: -4px -2px 20px 0px rgb(98, 105, 227);
+  }
+  
+#five {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+  box-shadow: -4px -2px 20px 0px rgb(112, 112, 112);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+#five:active {
+    box-shadow: -4px -2px 20px 0px seagreen;
+  }
+  
+#six {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+  box-shadow: -4px -2px 10px 0px rgb(112, 112, 112);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+#six:active {
+    box-shadow: -4px -2px 20px 0px springgreen;
+  }
+  
+#seven {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+  box-shadow: -4px -2px 10px 0px rgb(112, 112, 112);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+#seven:active {
+    box-shadow: -4px -2px 20px 0px rgb(202, 234, 42);
+  }
+  
+#Eight {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+  box-shadow: -4px -2px 10px 0px rgb(112, 112, 112);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+#Eight:active {
+    box-shadow: -4px -2px 20px 0px chartreuse;
+  }
+  
+#Nine {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+  box-shadow: -4px -2px 10px 0px rgb(112, 112, 112);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+#Nine:active {
+    box-shadow: -4px -2px 20px 0px darkmagenta;
+  }
+  
+#Ten {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+  box-shadow: -4px -2px 10px 0px rgb(112, 112, 112);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+#Ten:active {
+    box-shadow: -4px -2px 20px 0px hotpink;
+  }
+  
+#Zero {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+  box-shadow: -4px -2px 10px 0px rgb(112, 112, 112);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+#Zero:active {
+    box-shadow: -4px -2px 20px 0px honeydew;
+  }
+  
+#Ans {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  background-color: rgb(199, 33, 33);
+  color: white;
+  box-shadow: -4px -2px 10px 0px rgb(112, 112, 112);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+#Ans:active {
+    box-shadow: -4px -2px 20px 0px cyan;
+  }
+  
+#dec {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+  box-shadow: -4px -2px 10px 0px rgb(112, 112, 112);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+#dec:active {
+    box-shadow: -4px -2px 20px 0px sandybrown;
+  }
+  
+#add {
+  height: 4rem;
+  width: 4rem;
+  background-color: black;
+  color: green;
+  border-radius: 100%;
+  box-shadow: -4px -2px 10px 0px rgb(112, 112, 112);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+#add:active {
+    box-shadow: -4px -2px 20px 0px indigo;
+  }
+  
+#sub {
+  height: 4rem;
+  width: 4rem;
+  background-color: black;
+  color: rgb(11, 227, 20);
+  font-size: 20px;
+  border-radius: 100%;
+  box-shadow: -4px -2px 10px 0px rgb(112, 112, 112);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+#sub:active {
+    box-shadow: -4px -2px 20px 0px darkorange;
+  }
+  
+#mul {
+  height: 4rem;
+  width: 4rem;
+  background-color: black;
+  color: rgb(11, 227, 20);
+  font-size: 20px;
+  border-radius: 100%;
+  box-shadow: -4px -2px 10px 0px rgb(112, 112, 112);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+#mul:active {
+    box-shadow: -4px -2px 20px 0px olive;
+  }
+  
